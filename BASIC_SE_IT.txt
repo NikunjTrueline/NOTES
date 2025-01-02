@@ -1,0 +1,210 @@
+﻿ IT - Information Technology 
+
+~ Three main pillar of IT.
+
+- Software (developer)
+- Networking
+- Digital marketing / designing 
+
+
+~ Development    in    two parts. 
+
+- Application 
+- Website (frontend / backend )
+
+
+—————————————————————————————————————————————————
+
+ -> Why learn Programming language    ?
+
+- learning programming language because to us developed software              
+                            , Application , website . 
+
+- programming language is converter    between computer system and user. 
+
+—————————————————————————————————————————————————
+
+> Program - set of instruction
+
+--Program is set of instruction which perform specific function or task.    
+
+> programming language - set of Program    
+                            software - set of program 
+
+—————————————————————————————————————————————————
+
+Two type of programming language 
+
+- low level 
+- high level 
+
+-> low level 
+= machine level 
+= assembly level
+
+-> high level 
+= procedural 
+= object oriented ( mostly used)
+
+
+—————————————————————————————————————————————————
+
+programming language example . 
+
+- c
+- c++ 
+- java 
+- dart 
+- python
+- php
+- larval
+- .net
+- html , css 
+- javascript 
+- node Js 
+- Database
+
+ 
+—————————————————————————————————————————————————
+
+ > WWW
+        - World wide web.
+        - Collection of webpages , website and than stored in web
+                  server.
+
+—————————————————————————————————————————————————
+
+> Internet Work
+      - Internet pass data from one platform to 
+                                            anther platform.
+
+    - Like when we send a message to someone in WhatsApp, then
+        the message is transferred from one place to another
+      (another platform). reaches which is made possible
+        by the Internet.
+
+
+—————————————————————————————————————————————————
+
+~ protocol 
+
+- Set of Rules and regulation for communicating data.
+
+      -> secure -https:// 
+      -> unsecure -http://
+
+                - transaction control protocol.
+                - internet protocol
+                - post office protocol.
+
+—————————————————————————————————————————————————
+
+> Client and server
+
+    Client <--> To us <--> Request.
+    Server <--> Network <--> Response.
+
+—————————————————————————————————————————————————
+
+>    Introduction of Software
+      
+    - Software is a set of instructions, data or programs used to 
+        operate computers and execute specific tasks. 
+
+—————————————————————————————————————————————————
+
+> Mobile Application
+
+> Web Application
+
+—————————————————————————————————————————————————-
+
+Github
+
+- GitHub is a code hosting platform for version control and 
+collaboration. It lets you and others work together on projects 
+from anywhere. This tutorial teaches you GitHub essentials like 
+repositories, branches, commits, and pull requests.
+
+—————————————————————————————————————————————————
+
+SDLC (Software Development Lifecycle)
+
+Following are the phases in SDLC.
+
+1) S/W Requirement 
+2) S/W Analysis
+3) S/W Designing
+4) S/W Development
+5) S/W Testing    (Quality Assurance )Tester
+6) S/W Deployment
+7) S/W Maintenance
+
+—————————————————————————————————————————————————
+
+Algorithms.
+
+- An algorithm is a procedure used for solving a problems.
+
+Scenario 1. To make a tea.
+
+step1 : Start
+step2 : Take inputs (take bowl ,tea , sugar ,etc.)
+step3 : Boil (Process)
+step4 : Output (Serve Tea)
+step5 : Decision (Good & bad) (good - serve & bad - restart) 
+step6 : Stop
+
+Flowchart : It is a pictorial representation
+                        of algorithms
+
+—————————————————————————————————————————————————
+      
+            Hello World Program with machine language 
+
+    01001000 01100101 01101100 01101100 
+    01101111 01010111 01101111 01110010
+    01101100 01100100
+
+—————————————————————————————————————————————————
+        
+          Hello World Program with Assembly language 
+
+        Global _main
+        Extern _printf 
+        
+        Section .txt
+      
+
+    _main :
+
+        Push      message 
+        Call      _printf
+        Add        asp,    4
+        Ret 
+
+    
+      Message :
+      Db        'Hello world', 10 , 0
+
+
+—————————————————————————————————————————————————
+
+          Hello World Program with high level ( programming ) language 
+
+          #include <stdio.h>
+ 
+          Int main()
+          {
+                Printf("Hello world...." );
+                Return 0;
+            }
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,506 @@
+﻿Dart    Tutorial
+
+
+—————————————————————————————
+CHAPTER 1 ——>    Introduction to Dart
+—————————————————————————————
+
+
+	Dart History
+		what is dart ?
+		who made the dart ?
+		when was the dart made ? 
+		what is dash ?
+
+	Dart is a general-purpose, high-level modern programming language which is originally developed by Google. It is the new 	programming language which is emerged in 2011, but its stable version was released in June 2017. Dart is not so popular at 	that time, but It get popularity when it is used by the Flutter.
+
+	Dart is an open-source programming language which is widely used to develop the mobile application, modern web-	applications, desktop application, and the Internet of Things (IoT) using by Flatter framework. It also supports a few advance 	concepts such as interfaces, mixing, abstract classes and type interface. 
+
+	It is a compiled language and supports two types of compilation techniques.
+
+	AOT (Ahead of Time) 
+	JIT (Just-In-Time) 
+
+	Dart is a platform-independent language and supports all operating systems such as Windows, Mac, Linux, etc…
+
+	It is an open-source language, which means it available free for everyone. It comes with a BSD license and recognized by the 	ECMA standard.
+
+	Dart is a programming language which is designed by Lars Bak and developed by Google.
+	
+	Dash is the mascot for the Dart language and the Flutter framework.
+
+	ECMA – European computer manufacturing Association.
+	BSD      –      Berkeley software distribution.
+
+
+
+
+
+——————————————————————————————
+CHAPTER 2 ——>    Installation and setup 
+——————————————————————————————
+
+
+	Dart installation
+		dart - sdk 
+		IDE    [ intelliJ ide , Vs code ]
+		
+	Dart First Programm
+      	There are three ways to run dart programm
+		- Using Command Line
+		- Running on Browser
+		- Using IDE
+
+
+	Installation process.
+
+		- download dart sdk 
+		- Extract download zip file 
+		- set a path in environment variable.
+		- check command in terminal / cmd.
+
+	There are three ways to run dart programm
+
+ 		1)    Using Command Line
+			- write code in notepad and than save with .dart extension
+			- open cmd with this save file
+			- run dart programfile_name.dart
+
+		2) Running on Browser
+			- use dart pad
+
+		3) Using IDE
+			- IntelliJ idea 
+			- vs code 
+			- download and install 
+			- install dart and flutter extension package 
+
+
+
+
+
+——————————————————————————————
+CHAPTER 3    ——>    Basic concept of    dart 
+——————————————————————————————
+
+	Hello world
+		- Main function
+		- Self introduction
+
+
+	Comments :
+
+	In every programming language comments play an important role for better understanding of the code in the future or by any 	other programmer. Comments are a set of statements that are not meant to be executed by the compiler. They provide proper 	documentation of the code. 
+
+	Types of dart comments :
+
+	- single line comments //
+	- multi-line comments /* */
+	- documentation comments    /// 
+
+
+	Keywords :
+
+	Dart keywords are the reserve words in dart programming language which has some special meaning to the compiler. These 		keywords are case-sensitive    and can not be used to name of variables, classes and functions.
+
+	In dart programming , there are 63 keywords.
+
+
+	variable & Datatypes
+
+	Variables :
+
+		A variable name is the name assigned    to memory location where the user store data and that can be fetched when required 	with the help of the variable by calling its variable name.
+
+	Datatypes.
+
+	- int
+	- Double
+	- Num 
+	- boolean
+	- String
+	- List
+	- Set
+	- Map
+	- Queues 
+	- Enum
+	- Var & Dynamic
+	- Final & const 
+
+
+	String interpolations
+
+	            String interpolation is the process of inserting variable values into placeholders in a string literal. To concatenate strings in 	Dart, we can utilize string interpolation. We use the ${} symbol to implement string interpolation in your code. 
+
+	- $ sign
+	- {} placeHolder
+	- Multi-line String
+
+
+	User Input & output statement :
+	
+			- print statement
+			- using print Statement 		
+			- using stdout.write statement
+			- using stdin method for input.
+
+
+	Type casting
+		- int to string
+		- double to string
+		- string to int
+		- double to int ( toInt() method )
+
+
+	Operator
+		- Arithmetic
+		- Assignment
+		- Relational
+		- Type-test
+		- Logical
+		- Bitwise
+		- Ternary 
+		- Cascade notation 
+	
+
+
+
+
+
+————————————————————————————————
+CHAPTER 4    ——>    Flow control statement
+———————————————————————————————
+
+	Conditional Programming
+		- if..
+		- if...else
+		- if...else if..    (if..else leader..)
+		- nested if..
+		- switch case..
+
+
+	Control statement
+		- while loop
+		- do..while loop
+		- for loop
+		- for in loop
+		- for each loop
+
+
+	Jumping Statment
+		- break
+		- continue
+
+
+
+
+
+—————————————————————————————
+CHAPTER 5    ——> String and methods
+—————————————————————————————
+
+	A dart string is sequence of UTF-16 code units. You can use either single to double    quotes to create string.
+	We can use multiline string in dart.
+
+
+	String & property
+		- codeUnits				- contains
+		- hashCode				- endsWith
+		- isEmpty				- indexOf
+		- isNotEmpty			- lastIndexOf
+		- length    				- substring 
+                	- runtimeType    			- replaceRange
+		- codeUnitAt    			- toLowerCase
+		- compareTo    			- startwith
+		- padleft 				- padright
+		- replace all				- replace first
+		- split
+
+
+
+
+
+
+————————————————————————————
+CHAPTER 6    ——>    Collections in dart 
+————————————————————————————
+
+	Collections are group of object that represents    a particular element.
+		List
+		Set
+		Maps
+		Queues
+
+
+	List & property
+ 
+	Dart List is similar to an array, which is the ordered collection of the objects.
+				Fixed Length List - We cannot change the list's length at runtime.
+                • 		Growable List - We can change the length of the list at run-time
+
+
+		- add					- any
+		- add all				- index Where
+		- insert 					- toList
+		- insert all				- forEach
+		- remove		            		- contain
+		- remove at 				- every
+		- remove last			- join 
+		- remove range			- index Of
+		- remove where			- fill range	
+		- first					- first where
+		- last					- getRange	
+		- length					- lastIndexOf
+		- sort 					- removeRange
+		- suffle					- replaceRange
+		- reverse				- setAll
+		- runtimetype			- setRange	
+		- isempty				- single where
+		- isnotempty			- skip
+		- clear					- skipwhile		
+		- sublist					- take
+		- asMap				- takewhile	
+		- hasecode				- where	
+		- indexed
+		- toString
+	
+	
+	Set & property
+
+		The Dart Set is the unordered collection of the different values of the same type. It has much functionality, which is the same as    	an array, but it is unordered. Set doesn't allow storing the duplicate values. The set must contain unique values.
+		Dart , provides the two methods to declare/initialize an empty set. The set can be declared by using the {} curly 	braces proceeded by a type argument, or declare the variable type Set with curly braces {}.
+
+
+	Map & Property
+
+		Dart Map is an object that stores data in the form of a key-value pair. Each value is associated with its key, and it is used to 	access its corresponding value. Both keys and values can be any type. In Dart Map, each key must be unique, but the same 	value can occur multiple times. The Map representation is quite similar to Python Dictionary. The Map can be declared by using 	curly braces {} ,and each key-value pair is separated by the commas(,). The value of the key can be accessed by using a square 	bracket([]).
+
+		- length					- add All
+		- value					- update
+		- key					- toString
+		- isEmpty				- clear
+		- isNotEmpty			- forEach
+		- hasecode				- enteries
+		- runtimeType			- containskey	
+		- entires				- containsValue
+		- removewhere			- putifnull
+		- remove 				- updateAll
+
+
+	Queues & property
+
+
+
+
+
+
+————————————————————————————
+CHAPTER 7    ——>    Functions in dart 
+————————————————————————————
+
+	Function is a set of statements that take inputs, do some specific computation and produces output. Functions are created 		when certain statements are repeatedly occurring in the program and a function is created to replace them. Functions make it 		easy to divide the complex program into smaller sub-groups and increase he code reusability of the program.
+
+	Functions
+		- Basically two types 
+                      	1) Built-in 
+                      	2) user-define
+                                	- generally four types 
+                                              	1) without argument without return types
+                                              	2) without argument with return types
+                                              	3) with argument without return types
+                                              	4) with argument with return types	
+
+		in dart 
+                                                  <    optional    >
+			1) Optional Positional Parameter
+			2) Optional Named parameter
+			3) Optional parameter with default values
+
+		Advanced :
+
+			1) Fat arrow notation    
+			2) Anonymous or lambda functions
+			3) Lexical closures 
+
+	Anonymous | lambda function().
+
+		We have learned the Dart Function, which is defined by using a user-define name. Dart also provides the facility to specify a 	nameless function or function without a name. This type of function is known as an anonymous function, lambda, or closure. 	An anonymous function behaves the same as a regular function, but it does not have a name with it. It can have zero or any 	number of arguments with an optional type annotation.
+
+
+
+
+
+
+————————————————————————————
+CHAPTER 8 ——>    Exceptions.
+————————————————————————————
+
+	Exceptions are errors indicating that something unexpected happened.
+
+	An exception is an error that takes place inside the program. When an exception occurs inside a program    the normal flow of 		the program is disrupted and terminates abnormally, displaying the error and exception stack as output.
+
+
+	Exceptions
+		try...on
+		try...catch
+		throw...
+		finally...
+
+
+
+
+
+——————————————————————————————
+CHAPTER 9 ——> oops concept in Dart 
+——————————————————————————————
+
+
+	Class & object 
+
+	Class :
+
+	Dart classes are the blueprint of the object, or it can be called object constructors. A class can contain fields, functions, 				constructors, etc. A class can refer to as user-define data type which defines characteristics by its all objects. 
+
+	Object :
+	An object is a real-life entity such as a table, human, car, etc. The object has two characteristics - state and behavior. Let's take 		an example of a car which has a name, model name, price and behavior moving, stopping, etc. The object-oriented 				programming offers to identify the state and behavior of the object. 
+
+	Constructor & destructor:
+
+	A constructor is a different type of function which is created with same name as its class name. The constructor is used to 			initialize an object when it is created. When we create the object of class, then constructor is automatically called. It is quite 		similar to class function but it has no explicit return type.
+
+	Constructor & destructor
+		1) Default Constructor
+		2) Parameter Constructor
+		3) Named Constructor
+
+	Inheritance.
+	Parent class : it is the class whose properties are inherited by the child class. It also know as a base class or superclass.
+	Child class : it is the class that inherits the properties of the other classes. It is also know as a derived class or subclass.
+		
+		1) Single-Level Inheritance
+		2) Multi-Level Inheritance
+		3) Hierarchical Inheritance
+
+
+	Getter - Setter 
+		Getter and setter methods are the class method used to manipulate the data of the class fields.getter is used to read or 		get the data of the class field whereas setter is used to set the data of the class field to some variables.
+
+
+	Polymorphism:
+                        The polymorphism is a combination of the two Greek words poly, which means many and morph means morphing into 		different forms or shapes. Together, polymorphism means the same entity can be used in various forms.
+
+	Interface :
+		The keyword implement is needed to be writing, followed by class name to be able to use the interface .
+
+	method overriding:
+		When we declare the same method in the subclass, which is previously defined in the superclass is known as the method 			overriding. The subclass can define the same method by providing its own implementation, which is already exists in 				the superclass. The method in the superclass is called method 	overridden, and method in the subclass is called method 			overriding. 
+
+
+
+
+	abstract class:
+
+			An Abstract class in dart is defined as those classes which contain one or more than one abstract method in 	them.whereas , to 	declare an abstract class we make use of the abstract    keyword. So it must be notes that a class declared 	abstract may or may 	not include abstract    methods but if it include    an abstract method then it must be an abstract class.
+
+
+
+
+
+
+
+——————————————————————————————
+CHAPTER 10 ——> Advanced concepts.
+——————————————————————————————
+
+
+	what is json ?
+
+	json stands for javascript object notation.
+
+	JSON object :
+	JSON objects are written inside curly braces. EX.
+
+	{"firstName":"John", "lastName":"Doe"}
+
+
+
+	JSON array :
+	JSON arrays are written inside square brackets. EX.
+
+	"employees":[
+    {"firstName":"John", "lastName":"Doe"},
+    {"firstName":"Anna", "lastName":"Smith"},
+    {"firstName":"Peter", "lastName":"Jones"}
+	]
+
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	json encode & decode
+ 
+	jsonEncode() :
+	We use jsonEncode when we want to convert or parse json or map to string. It means , if we have json or jsonMap object or 	convert into string so at that time to us parse data with encoding.
+
+	jsondecode() : 
+	We use jsonDecode when we want to convert or parse a string to Json or Map. It means, if we have a string or json string      			convert it to a Map object    so at that time to us parse data with decoding.
+
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	if null operator
+	
+	      Null-aware operator in dart allow you to make computations based on weather or not a value is null.it’s shortened for longer 	expression. A null-aware operator is a nice tool for making nullable types usable in dart instead of throwing an error. 
+                            The most common use of the null aware operator is when a developer wants to parse json data from the server and after 	parsing json, the user can check weather the json is empty or not using the if-else conditions.
+
+	we use ?? When you want to evaluate    and return an expression if another expression resolve to null.
+	it is also called the if-null operator.
+
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	Spread operator :
+
+		Spread operator, which Make it possible for us to add multiple values to a collections.This collection can be a list, a set, or a 	map. This operator is a replacement for add or addAll operator in dart.The spread operator is three dots.
+
+	( … )    This is spread operator.
+
+
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	thread operator:
+
+	Async , await , future , stream…
+	Dart supports concurrent programming with async-await, isolates, and classes such as Future and Stream. 
+
+
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+	user model class
+	
+
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+	Mixing.
+
+		Mixing in dart are a way to reuse code across multiple classes. They provide mechanism for adding additional functionality 	to a class without the need for an inheritance, this helps to avoid the diamonds problem of multiple inheritance.
+		Applied using the ‘with’ keyword followed by one or more mixing names.
+		Mixing class don’t have constructor.
+
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	Null safety
+	
+		Null safety in simple words means a variable cannot contain a null value unless you initialized with null to that variable. With null 	safety, all the runtime null-dereference error will now be shown in compile time.
+
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+	keywords    
+    			
+		 async , await , this , future , super , static , interface , implement ,    factory , extend , with , null , late , is , as , in .
+
+
+
+
+
+
+
