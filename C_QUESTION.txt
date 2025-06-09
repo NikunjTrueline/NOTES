@@ -1,0 +1,112 @@
+
+                **  Question Bank  **
+
+
+    	 Introduction to yourself.
+
+    	 Write a C program to print your name, date of birth, and mobile number.
+
+	 Patterns  with the help of escape sequence (Fish,House,Reciept,Result)
+
+    	 Write a program to convert given number of year and day.
+
+    	 Write a program to print a table.
+
+	 Write a C program to print a block F using the hash (#), where the F has a height of six characters and width of five and four 
+		characters. And also print a very large 'C'.
+
+	 Write a C program to print the your name in reverse order with characters.
+
+	 Find the are of circle and rectangle.
+
+	 Write a C program that takes hours and minutes as input, and calculates the total number of minutes.
+
+    	 Write a program to print a swapping number.
+
+   	 Write a program to check given number even or odd.
+
+   	 Write a program to print simple calculator.
+
+   	 Write a program of to find out the area of tringle,rectengle and circle.
+
+   	 Write a program to make a square and cube of number.
+
+    	 Write a program  to find the simple interest.
+
+    	 write a program to check maximum number between two or three.
+
+    	 Write a program to check number is division by 5 or 11. 
+
+    	 Write a program to check given character is alphabet or not.
+
+   	 Write a C program to print numbers from 0 to 10 and 10 to 0 using do while loops.
+
+   	 Write a C program that prompts the user to input a series of integers until the user stops entering 0 using a while loop. 			
+
+Calculate and print the sum of all the positive integers entered.
+   
+    	 write a program to check given character is alphabet,digit or special character.
+
+    	 Write a program user enter the 5 subject marks. you have to make a total and find the percentage.
+
+    	 Write a program to check given year is leap year or not.
+
+    	 Write a program to check given character vowel or constant .
+
+    	 Write a program to take a input number & check week or day.
+
+    	 Write a program to given total numbers of note to given number.(ATM)
+
+    	 Write a program to print a table print using do....while loop.
+
+    	 Take a input from user whenever user not input value 94. 
+
+    	 Write a program to take 1 to 100 and print only even number.
+
+    	 Write a program to not enterd zero until sum of all number.
+
+     	 WAP of Addition, Subtraction, Multiplication and Division using Switch case.(Must Be Menu Driven)
+
+    	 Write a program to food order system (ex :choose any one like 1.pizza 2.panipuri 3.coco) using  (do....while loop).                       
+
+    	 Write a program to print alphabet a to z ( loop ). 
+
+    	 Write a program to print number into reverse order.
+
+    	 Write a program to make summation of given number ( e.g. 1234 -> 10)
+
+    	 Write a program to print number is palindrom or not check.
+
+    	 Write a program to print number is armstrong.
+
+    	 Write a program to print fibonacci series using loop and conditional programing.
+
+    	 Write a program to find out the max number from given array using function.
+
+    	 WAP to find factorial using recursion
+
+    	 WAP to make addition, Subtraction and multiplication of two matrix using 2-D Array.
+
+    	 WAP Find out length of string without using inbuilt function.
+
+    	 WAP to reverse a string and check that the string is palindrome or not.
+
+    	 Write a program of structure employee that provides the following information -print and display empno, empname,
+             address and age.
+
+     	 Write a program of structure for five employee that provides the following information -print and display empno,
+              empname, address and age.
+
+
+
+
+    
+
+
+  
+   
+
+    
+
+
+ 

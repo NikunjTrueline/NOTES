@@ -1,143 +1,150 @@
-﻿
-C        TUTORIAL
+
+C TUTORIAL
 
 
-————————————————————————————
-CHAPTER 1 ——>    Introduction to C
-————————————————————————————
+————————————————————————————---------
+CHAPTER 1 ——>    INTRODUCTION TO C
+————————————————————————————----------
 
-History of c language.
-
-
-ANSI    (American    national standard institute )
-
-ALGOL (Algorithmic Language)
-BCPL (Basic Combined Programming Language)
+HISTORY OF C LANGUAGE.
 
 
-Importance of C Programming Language
+ANSI    (AMERICAN  NATIONAL STANDARD INSTITUTE )
 
-Install C
+ALGOL (ALGORITHMIC LANGUAGE)
+BCPL (BASIC COMBINED PROGRAMMING LANGUAGE)
 
-GCC stands for GNU Compiler Collections. 
-MinGW stands for Minimal GNU for Windows
+
+IMPORTANCE OF C PROGRAMMING LANGUAGE
+
+INSTALL C
+
+GCC STANDS FOR GNU COMPILER COLLECTIONS. 
+MINGW STANDS FOR MINIMAL GNU FOR WINDOWS
 
         
 	GCC
-	- various kind of compiler collections for programming languages.
+	- VARIOUS KIND OF COMPILER COLLECTIONS FOR PROGRAMMING LANGUAGES.
 
-	Mingw
-	- particular c and c++ compiling and assembling.
-
-
-Compilation Process in C
-
-Before diving into the traditional definition of compilation, let us consider an example where there is a person A who speaks Hindi language and person A wants to talk to person B who only knows English language, so now either of them requires a translator to translate their words to communicate with each other. This process is known as translation, or in terms of programming, it is known as compilation process.
+	MINGW
+	- PARTICULAR C AND C++ COMPILING AND ASSEMBLING.
 
 
-IDE (Integrated Development Environment)
+COMPILATION PROCESS IN C
 
-Compilation process in C involves four steps:
-
-Preprocessing.        ( comment removal ).          File convert .c      To    .I      extension 
-Compiling.                ( source code to assembly ).        File convert      .I      To      .s      extension
-Assembling.            ( assembly to machine ).          File    convert      .s      To      .o    
-Linking            ( machine code (010110101)).      File convert      .o      To        .out 
+BEFORE DIVING INTO THE TRADITIONAL DEFINITION OF COMPILATION, LET US CONSIDER AN EXAMPLE WHERE THERE IS A PERSON A WHO SPEAKS HINDI LANGUAGE AND PERSON A WANTS TO TALK TO PERSON B WHO ONLY KNOWS ENGLISH LANGUAGE, SO NOW EITHER OF THEM REQUIRES A TRANSLATOR TO TRANSLATE THEIR WORDS TO COMMUNICATE WITH EACH OTHER. THIS PROCESS IS KNOWN AS TRANSLATION, OR IN TERMS OF PROGRAMMING, IT IS KNOWN AS COMPILATION PROCESS.
 
 
-Difference Between Compiler and Interpreter
+IDE (INTEGRATED DEVELOPMENT ENVIRONMENT)
+
+COMPILATION PROCESS IN C INVOLVES FOUR STEPS:
+
+PREPROCESSING.        ( COMMENT REMOVAL ).          FILE CONVERT .C      TO    .I      EXTENSION 
+COMPILING.                ( SOURCE CODE TO ASSEMBLY ).        FILE CONVERT      .I      TO      .S      EXTENSION
+ASSEMBLING.            ( ASSEMBLY TO MACHINE ).          FILE    CONVERT      .S      TO      .O    
+LINKING            ( MACHINE CODE (010110101)).      FILE CONVERT      .O      TO        .OUT 
 
 
-
-—————————————————————————————————————
-CHAPTER 2 ——>      Building Block of C Language
-—————————————————————————————————————
-
-
-Character Set in C
-
-Character Set includes a set of valid characters we can use in our program in different parts.
-
-Alphabetic Characters (A-Z, a-z) :
-Digits (0-9) : 
-Special Characters :      * & # 
-Whitespace Characters :          
-Control Characters :      
- These include non-printable characters like the escape character ('\e') and others used for control and formatting, such as '\b' (backspace), '\t' (tab), and '\n' (newline).
-
-Escape Sequences:  \n. \t. 
+DIFFERENCE BETWEEN COMPILER AND INTERPRETER
 
 
 
-Tokens in C
-
-Tokens in C language are the minor elements or the building blocks used to construct or develop a C program.
- These tokens in C are meaningful to the compiler.
-
-Types of Tokens in C language
-Tokens in C language can be classified as:
-
-Keywords
-Identifiers
-Constant
-Special Characters
-String
-Operator
+—————————————————————————————————————-------------
+CHAPTER 2 ——>      BUILDING BLOCK OF C LANGUAGE
+—————————————————————————————————————-------------
 
 
-Identifiers in C
+CHARACTER SET IN C
 
-Identifiers in C language represent the names of various entities such as arrays, functions, variables, user-defined data types, labels, etc.
+CHARACTER SET INCLUDES A SET OF VALID CHARACTERS WE CAN USE IN OUR PROGRAM IN DIFFERENT PARTS.
 
-Valid Identifiers in C
+ALPHABETIC CHARACTERS (A-Z, A-Z) :
+DIGITS (0-9) : 
+SPECIAL CHARACTERS :      * & # 
+WHITESPACE CHARACTERS :          
+CONTROL CHARACTERS :      
+ THESE INCLUDE NON-PRINTABLE CHARACTERS LIKE THE ESCAPE CHARACTER ('\E') AND OTHERS USED FOR CONTROL AND FORMATTING, SUCH AS '\B' (BACKSPACE), '\T' (TAB), AND '\N' (NEWLINE).
 
-length 
-total_sum 
-_size
-num1 
-num_2 
-
-Invalid Identifiers in C
-
-5size (it begins with a digit)
-\@hello (starts with a special character other than '_')
-int ( it is a keyword)
-m n (contains a blank space)
-m+n (contains a special character)
-
-Constants in C
-
-Variables having fixed values that don’t change and cannot be changed throughout the execution of the program once initialized are called Constants.
-
-In the C programming language, A variable can be used as a constant by the following methods:
-
-Using const keyword.
-Using the #define preprocessor.
+ESCAPE SEQUENCES:  \N. \T. 
 
 
-Data Types and Their Ranges in C
 
-What are data types in C
+TOKENS IN C
 
-Data type is an attribute of data which tells the c compiler, which type of data a variable is holding.
-It can be of type integer, float( decimal), character , boolean( true/false ) etc.
-Formally we use data types to specify the type of data our variables are holding.
+TOKENS IN C LANGUAGE ARE THE MINOR ELEMENTS OR THE BUILDING BLOCKS USED TO CONSTRUCT OR DEVELOP A C PROGRAM.
+ THESE TOKENS IN C ARE MEANINGFUL FOR THE COMPILER.
 
-a. Primary Data types or Basic Data Types 
-b. Secondary Data Types
-c. User-define Data Types
+TYPES OF TOKENS IN C LANGUAGE
+TOKENS IN C LANGUAGE CAN BE CLASSIFIED AS:
+
+KEYWORDS
+IDENTIFIERS
+CONSTANT
+SPECIAL CHARACTERS
+STRING
+OPERATOR
+
+
+KEYWORDS IN C 
+
+KEYWORDS ARE PRE-DEFINE OR RESERVED WORD THAT HAVE SPECIAL MEANING TO THE COMPILER. THESE ARE PART OF THE SYNTAX AND CANNOT BE USED AS IDENTIFIERS IN THE PROGRAM. A LIST OF KEYWORD IN C OR RESERVED WORD IN THE C PROGRAMMING ARE MENTIONED BELOW : 
+
+
+IDENTIFIERS IN C
+
+IDENTIFIERS IN C LANGUAGE REPRESENT THE NAMES OF VARIOUS ENTITIES SUCH AS ARRAYS, FUNCTIONS, VARIABLES, USER-DEFINED DATA TYPES, LABELS, ETC.
+
+
+VALID IDENTIFIERS IN C
+
+LENGTH 
+TOTAL_SUM 
+_SIZE
+NUM1 
+NUM_2 
+
+INVALID IDENTIFIERS IN C
+
+5SIZE (IT BEGINS WITH A DIGIT)
+\@HELLO (STARTS WITH A SPECIAL CHARACTER OTHER THAN '_')
+INT ( IT IS A KEYWORD)
+M N (CONTAINS A BLANK SPACE)
+M+N (CONTAINS A SPECIAL CHARACTER)
+
+CONSTANTS IN C
+
+VARIABLES HAVING FIXED VALUES THAT DON’T CHANGE AND CANNOT BE CHANGED THROUGHOUT THE EXECUTION OF THE PROGRAM ONCE INITIALISED ARE CALLED CONSTANTS.
+
+IN THE C PROGRAMMING LANGUAGE, A VARIABLE CAN BE USED AS A CONSTANT BY THE FOLLOWING METHODS:
+
+USING CONST KEYWORD.
+USING THE #DEFINE PREPROCESSOR.
+
+
+DATA TYPES AND THEIR RANGES IN C
+
+WHAT ARE DATA TYPES IN C
+
+DATA TYPE IS AN ATTRIBUTE OF DATA WHICH TELLS THE C COMPILER, WHICH TYPE OF DATA A VARIABLE IS HOLDING.
+IT CAN BE OF TYPE INTEGER, FLOAT( DECIMAL), CHARACTER , BOOLEAN( TRUE/FALSE ) ETC.
+FORMALLY WE USE DATA TYPES TO SPECIFY THE TYPE OF DATA OUR VARIABLES ARE HOLDING.
+
+
+A. PRIMARY DATA TYPES OR BASIC DATA TYPES 
+B. SECONDARY DATA TYPES
+C. USER-DEFINE DATA TYPES
 
 
 
 SHORT AND LONG
-These are used to define the amount of memory space that the compiler will allocate. In case of short int, it is typically 2 bytes and in long int, it is 4 bytes.
+THESE ARE USED TO DEFINE THE AMOUNT OF MEMORY SPACE THAT THE COMPILER WILL ALLOCATE. IN CASE OF SHORT INT, IT IS TYPICALLY 2 BYTES AND IN LONG INT, IT IS 4 BYTES.
 
 SIGNED AND UNSIGNED
-This also deals with memory allocation only but in a different way. In case of signed int, it takes into account both negative and positive numbers. But in unsigned int, we can only represent positive numbers.
+THIS ALSO DEALS WITH MEMORY ALLOCATION ONLY BUT IN A DIFFERENT WAY. IN CASE OF SIGNED INT, IT TAKES INTO ACCOUNT BOTH NEGATIVE AND POSITIVE NUMBERS. BUT IN UNSIGNED INT, WE CAN ONLY REPRESENT POSITIVE NUMBERS.
 
 
 
-A. Primary Data Types 
+A. PRIMARY DATA TYPES 
 
 INTEGER
 FLOATING POINT
@@ -145,7 +152,7 @@ CHARACTER
 DOUBLE
 
 
-B. Derived Datatypes 
+B. DERIVED DATATYPES 
 
  1. ARRAY
  2. STRING
@@ -153,1287 +160,573 @@ B. Derived Datatypes
  4. FUNCTIONS
 
 
-C.    User-define Datatypes
+C.  USER-DEFINE DATATYPES
 
  1. STRUCTURE
  2. UNION
 
-data-types-sizes-in-c.png ¬
 
-Declaration of Variables in C
+WHAT IS VARIABLES ?
 
-Let's say we need to calculate the area of a rectangle. To make this arithmetic calculation, we need to store the length and width of the rectangle. To store the length and width of the rectangle, we need to allocate some space in a memory location for the data, and the name given to that memory location is called Variable.
+A VARIABLE IN C IS A NAMED OF STORAGE LOCATION IN MEMORY THAT HOLDS A VALUE,WHICH CAN BE MODIFIED DURING PROGRAM EXECUTION.
+VARIABLE IS ONE KIND OF CONTAINER WHICH CAN STORE VARIOUS TYPES OF DATA.
 
-Variable declaration 
-data_type variable_name;
 
-Variable initialization
- variable_name = value;
+DECLARATION OF VARIABLES IN C
 
-Declaration of variable with initializing some value to it
-data_type variable_name = val;
+LET'S SAY WE NEED TO CALCULATE THE AREA OF A RECTANGLE. TO MAKE THIS ARITHMETIC CALCULATION, WE NEED TO STORE THE LENGTH AND WIDTH OF THE RECTANGLE. TO STORE THE LENGTH AND WIDTH OF THE RECTANGLE, WE NEED TO ALLOCATE SOME SPACE IN A MEMORY LOCATION FOR THE DATA, AND THE NAME GIVEN TO THAT MEMORY LOCATION IS CALLED VARIABLE.
 
+VARIABLE DECLARATION 
+DATA_TYPE VARIABLE_NAME;
 
-Comments in C
+VARIABLE INITIALIZATION
+ VARIABLE_NAME = VALUE;
 
-Comments are program text used to explain the program logic. They are ignored by the compiler. Comments help to make our code more readable and maintainable. The compiler and interpreter ignore comments, so they do not affect the program's behavior or performance.
+DECLARATION OF VARIABLE WITH INITIALISING SOME VALUE TO IT
+DATA_TYPE VARIABLE_NAME = VAL;
 
-Types of C Comments
+TYPES OF VARIABLE 
+1. LOCAL VARIABLE
+2. GLOBAL VARIABLE
+3. CONSTANT VARIABLE
 
-Single-Line Comments
-Multi-Line comments or Paired Comments
+Rules for Naming Variables (Identifier Rules) in C
+1️⃣ A variable name can only contain letters (A-Z, a-z), digits (0-9), and underscore (_).
+✅ Valid: age, marks_1, student_id
+❌ Invalid: marks@1, student-id
 
+2️⃣ A variable name cannot start with a digit.
+✅ Valid: count1, var_2
+❌ Invalid: 1count, 3value
 
+3️⃣ Special characters (@, $, #, etc.) are not allowed in variable names.
+✅ Valid: score, total_marks
+❌ Invalid: total$marks, #value
 
-———————————————————————————————————
-CHAPTER 3 ——>      Basic Input Output in C
-———————————————————————————————————
+4️⃣ C is case-sensitive, meaning Age and age are two different variables.
+✅ int Age = 10; and int age = 20; are different variables.
 
-Input and Output Functions in C
+5️⃣ Reserved keywords (like int, float, return, etc.) cannot be used as variable names.
+✅ Valid: count, value1
+❌ Invalid: int, return, float
 
-Input refers to feeding data into the program, and Output refers to getting data out of the program. Input and Output in C are done using the Standard Input/Output library, which we could include in the program using stdio.h header file consists of Input and Output functions in C like scanf() for input and printf() for output. 
 
-printf(“I see……I remembered ”);
-printf(“%A”, variableName); 
-scanf(“%A”, &variable); 
 
 
-Format specifiers in C
+COMMENTS IN C
 
-%c			            For character type.
-%d			For signed integer type.
-%f				For float type.
-%lf			Double
-%p		 	Pointer
-%s			          String
-%lu			Unsigned int
+COMMENTS ARE PROGRAM TEXT USED TO EXPLAIN THE PROGRAM LOGIC. THEY ARE IGNORED BY THE COMPILER. COMMENTS HELP TO MAKE OUR CODE MORE READABLE AND MAINTAINABLE. THE COMPILER AND INTERPRETER IGNORE COMMENTS, SO THEY DO NOT AFFECT THE PROGRAM'S BEHAVIOUR OR PERFORMANCE.
 
-First C Program
+TYPES OF C COMMENTS
 
-Different parts of C programs are :
+SINGLE-LINE COMMENTS
+MULTI-LINE COMMENTS OR PAIRED COMMENTS
 
-Header File
-Preprocessor directives 
-Main() function
-Variables
-Statements and expression
-Comments
 
-Command Line Arguments in C
 
-Through Command Line Interface (CLI) , a user can interact with the operating system or application by typing the commands. After that, the system responds to the command, and the user can type the next command for performing the next operation.
+———————————————————————————————————-----
+CHAPTER 3 ——>      BASIC INPUT OUTPUT IN C
+———————————————————————————————————-----
 
-Macros in C
+INPUT AND OUTPUT FUNCTIONS IN C
 
-Suppose we are working on an application in C language and there is one value or an object or segment of code which we require so many times in our code then with the help of macros we can define it once and use it many times.
+INPUT REFERS TO FEEDING DATA INTO THE PROGRAM, AND OUTPUT REFERS TO GETTING DATA OUT OF THE PROGRAM. INPUT AND OUTPUT IN C ARE DONE USING THE STANDARD INPUT/OUTPUT LIBRARY, WHICH WE COULD INCLUDE IN THE PROGRAM USING STDIO.H HEADER FILE CONSISTS OF INPUT AND OUTPUT FUNCTIONS IN C LIKE SCANF() FOR INPUT AND PRINTF() FOR OUTPUT. 
 
-The syntax of the macro is as shown in below . Here, we will have the three components:
+PRINTF(“I SEE……I REMEMBERED ”);
+PRINTF(“%A”, VARIABLENAME); 
+SCANF(“%A”, &VARIABLE); 
 
-#define    PI    3.14
 
-#define - Preprocessor Directive
-PI - Macro Name
-3.14 - Macro Value
+FORMAT SPECIFIERS IN C
 
-User-define Macros in C Language
+%C			        FOR CHARACTER TYPE.
+%D				FOR SIGNED INTEGER TYPE.
+%F				FOR FLOAT TYPE.
+%LF				DOUBLE
+%P		 		POINTER
+%S			        STRING
+%LU			UNSIGNED INT
 
+FIRST C PROGRAM
 
-#define MAX 100
-#define MIN 1
-#define GRAVITY 9.8
-#define NAME “Trueline”
-#define TRUE 1
+DIFFERENT PARTS OF C PROGRAMS ARE :
 
-Pre-defined Macros in C Language
+HEADER FILE
+PREPROCESSOR DIRECTIVES 
+MAIN() FUNCTION
+VARIABLES
+STATEMENTS AND EXPRESSION
+COMMENTS
 
-__LINE__			            It contains the current line number on which this macro is used.            %d
-__FILE__				It contains the name of the file where the current program is present.          %s
-__DATE__			It contains the current date in MM DD YYYY format.          %s
-__TIME__			It contains the current time in HH:MM format.          %s
+COMMAND LINE ARGUMENTS IN C
 
-#define and #include in C
+THROUGH COMMAND LINE INTERFACE (CLI) , A USER CAN INTERACT WITH THE OPERATING SYSTEM OR APPLICATION BY TYPING THE COMMANDS. AFTER THAT, THE SYSTEM RESPONDS TO THE COMMAND, AND THE USER CAN TYPE THE NEXT COMMAND FOR PERFORMING THE NEXT OPERATION.
 
-All the statements starting with # (hash) symbol are known as preprocessor directives/commands therefore, #define and #include are also known as preprocessor directives. Preprocessor directives are executed before any other command in our program. In a C Program, we generally write all the preprocessor directives outside the main() function at the top of our C program. The #define directive is used to define constants or an expression in our C Program, while #include directive is used to include the content of header files in our C program.
+MACROS IN C
 
-#include is also known as a file inclusion directive.
-#define is also known as a macros directive.
+SUPPOSE WE ARE WORKING ON AN APPLICATION IN C LANGUAGE AND THERE IS ONE VALUE OR AN OBJECT OR SEGMENT OF CODE WHICH WE REQUIRE SO MANY TIMES IN OUR CODE THEN WITH THE HELP OF MACROS WE CAN DEFINE IT ONCE AND USE IT MANY TIMES.
 
-#include <stdio.h>
-#define PI 3.14
+THE SYNTAX OF THE MACRO IS AS SHOWN IN BELOW . HERE, WE WILL HAVE THE THREE COMPONENTS:
 
+#DEFINE    PI    3.14
 
-———————————————————————————————————————-
-CHAPTER 4 ——>    Operators and Expressions in C
-———————————————————————————————————————
+#DEFINE - PREPROCESSOR DIRECTIVE
+PI - MACRO NAME
+3.14 - MACRO VALUE
 
-Operators in C
+USER-DEFINE MACROS IN C LANGUAGE
 
-C Supports a rich set of built-in Operators. Operators are symbols that are used to perform some operation or a set of operations on a variable or a set of variables. operators in C are that symbols which work on operands. Operator in C language is used to perform specific mathematical or logical computations on the operands and it reduces a single value.
 
-Operators in C language, are classified into several categories.
+#DEFINE MAX 100
+#DEFINE MIN 1
+#DEFINE GRAVITY 9.8
+#DEFINE NAME “TRUELINE”
+#DEFINE TRUE 1
 
-Arithmetic operator
-Relational operator
-Assignment operator
-Logical operator
-Bitwise operator
-Ternary operator
-Special operator
+PRE-DEFINED MACROS IN C LANGUAGE
 
+__LINE__			            IT CONTAINS THE CURRENT LINE NUMBER ON WHICH THIS MACRO IS USED.            %D
+__FILE__				IT CONTAINS THE NAME OF THE FILE WHERE THE CURRENT PROGRAM IS PRESENT.          %S
+__DATE__			IT CONTAINS THE CURRENT DATE IN MM DD YYYY FORMAT.          %S
+__TIME__			IT CONTAINS THE CURRENT TIME IN HH:MM FORMAT.          %S
 
-Precedence(or priority) and Associativity of Operators in C
+#DEFINE AND #INCLUDE IN C
 
-Precedence determines which operator is performed first in an expression if there are more than one operator of different precedence. Associativity determines in which direction we should start computing the operators having the same precedence.
+ALL THE STATEMENTS STARTING WITH # (HASH) SYMBOL ARE KNOWN AS PREPROCESSOR DIRECTIVES/COMMANDS THEREFORE, #DEFINE AND #INCLUDE ARE ALSO KNOWN AS PREPROCESSOR DIRECTIVES. PREPROCESSOR DIRECTIVES ARE EXECUTED BEFORE ANY OTHER COMMAND IN OUR PROGRAM. IN A C PROGRAM, WE GENERALLY WRITE ALL THE PREPROCESSOR DIRECTIVES OUTSIDE THE MAIN() FUNCTION AT THE TOP OF OUR C PROGRAM. THE #DEFINE DIRECTIVE IS USED TO DEFINE CONSTANTS OR AN EXPRESSION IN OUR C PROGRAM, WHILE #INCLUDE DIRECTIVE IS USED TO INCLUDE THE CONTENT OF HEADER FILES IN OUR C PROGRAM.
 
-operator-precedence-in-c.png ¬
+#INCLUDE IS ALSO KNOWN AS A FILE INCLUSION DIRECTIVE.
+#DEFINE IS ALSO KNOWN AS A MACROS DIRECTIVE.
 
-Type Conversion
-Type conversion in C is the process of converting one data type to another
+#INCLUDE <STDIO.H>
+#DEFINE PI 3.14
 
-1. Implicit Type Conversion
-2. Explicit Type Conversion
 
+———————————————————————————————————————----------
+CHAPTER 4 ——>    OPERATORS AND EXPRESSIONS IN C
+———————————————————————————————————————----------
 
-————————————————————————————
-CHAPTER 5 ——>.      Flow Control in C
-————————————————————————————
+OPERATORS IN C
 
-if Statement
+C SUPPORTS A RICH SET OF BUILT-IN OPERATORS. OPERATORS ARE SYMBOLS THAT ARE USED TO PERFORM SOME OPERATION OR A SET OF OPERATIONS ON A VARIABLE OR A SET OF VARIABLES. OPERATORS IN C ARE THAT SYMBOLS WHICH WORK ON OPERANDS. OPERATOR IN C LANGUAGE IS USED TO PERFORM SPECIFIC MATHEMATICAL OR LOGICAL COMPUTATIONS ON THE OPERANDS AND IT REDUCES A SINGLE VALUE.
 
-if...else Statement
+OPERATORS IN C LANGUAGE, ARE CLASSIFIED INTO SEVERAL CATEGORIES.
 
-Nested If else Statement in C
+ARITHMETIC OPERATOR
+RELATIONAL OPERATOR
+ASSIGNMENT OPERATOR
+LOGICAL OPERATOR
+BITWISE OPERATOR
+TERNARY OPERATOR
+SPECIAL OPERATOR
 
-Switch Statement in C
 
-Do While Loop in C
+PRECEDENCE(OR PRIORITY) AND ASSOCIATIVITY OF OPERATORS IN C
 
-While Loop in C
+PRECEDENCE DETERMINES WHICH OPERATOR IS PERFORMED FIRST IN AN EXPRESSION IF THERE ARE MORE THAN ONE OPERATOR OF DIFFERENT PRECEDENCE. ASSOCIATIVITY DETERMINES IN WHICH DIRECTION WE SHOULD START COMPUTING THE OPERATORS HAVING THE SAME PRECEDENCE.
 
-For loop in C
+OPERATOR-PRECEDENCE
 
 
-Jump Statements in C
+TYPE CONVERSION
+TYPE CONVERSION IN C IS THE PROCESS OF CONVERTING ONE DATA TYPE TO ANOTHER
 
-Jump Statements interrupt the normal flow of the program while execution and jump when it gets satisfied given specific conditions. The main uses of jump statements are to exit the loops like for, while, do-while also switch case and executes the given or next block of the code, skip the iterations of the loop, change the control flow to specific location, etc.
+1. IMPLICIT TYPE CONVERSION
+2. EXPLICIT TYPE CONVERSION
 
-Types of Jump Statement in C
-There are 4 types of Jump statements in C language.
-Break Statement
-Continue Statement
-Goto Statement
-Return Statement.
 
+————————————————————————————------------
+CHAPTER 5 ——>.      FLOW CONTROL IN C
+————————————————————————————------------
 
+IF STATEMENT
 
-———————————————————————
-CHAPTER 6 ——>    Arrays in C
-———————————————————————
+IF...ELSE STATEMENT
 
+NESTED IF ELSE STATEMENT IN C
 
-An array is a collection of one or more values of the same data type stored in contiguous memory locations. The data type can be user-defined or even any other primitive data-type. Elements of an array can be accessed with the same array name by specifying the index number as the location in memory.
+SWITCH STATEMENT IN C
 
-Types of Arrays
-Arrays in C are classified into three types:
-One-dimensional arrays OR single dimensional    array
-Two-dimensional arrays OR Multi dimensional    array
+DO WHILE LOOP IN C
+
+WHILE LOOP IN C
+
+FOR LOOP IN C
+
+
+
+JUMP STATEMENTS IN C
+
+JUMP STATEMENTS INTERRUPT THE NORMAL FLOW OF THE PROGRAM WHILE EXECUTION AND JUMP WHEN IT GETS SATISFIED GIVEN SPECIFIC CONDITIONS. THE MAIN USES OF JUMP STATEMENTS ARE TO EXIT THE LOOPS LIKE FOR, WHILE, DO-WHILE ALSO SWITCH CASE AND EXECUTES THE GIVEN OR NEXT BLOCK OF THE CODE, SKIP THE ITERATIONS OF THE LOOP, CHANGE THE CONTROL FLOW TO SPECIFIC LOCATION, ETC.
+
+TYPES OF JUMP STATEMENT IN C
+THERE ARE 4 TYPES OF JUMP STATEMENTS IN C LANGUAGE.
+BREAK STATEMENT
+CONTINUE STATEMENT
+GOTO STATEMENT
+RETURN STATEMENT.
+
+
+
+———————————————————————----
+CHAPTER 6 ——>    ARRAYS IN C
+———————————————————————----
+
+
+AN ARRAY IS A COLLECTION OF ONE OR MORE VALUES OF THE SAME DATA TYPE STORED IN CONTIGUOUS MEMORY LOCATIONS. THE DATA TYPE CAN BE USER-DEFINED OR EVEN ANY OTHER PRIMITIVE DATA-TYPE. ELEMENTS OF AN ARRAY CAN BE ACCESSED WITH THE SAME ARRAY NAME BY SPECIFYING THE INDEX NUMBER AS THE LOCATION IN MEMORY.
+
+TYPES OF ARRAYS
+
+ARRAYS IN C ARE CLASSIFIED INTO THREE TYPES:
+ONE-DIMENSIONAL ARRAYS OR SINGLE DIMENSIONAL    ARRAY
+TWO-DIMENSIONAL ARRAYS OR MULTI DIMENSIONAL    ARRAY
 
 ******************************************************
 
-One Dimensional Array in C :
+ONE DIMENSIONAL ARRAY IN C :
 
-We can visualize a one-dimensional array in C as a single row to store the elements. All the elements are stored at contiguous memory locations.
+WE CAN VISUALISE A ONE-DIMENSIONAL ARRAY IN C AS A SINGLE ROW TO STORE THE ELEMENTS. ALL THE ELEMENTS ARE STORED AT CONTIGUOUS MEMORY LOCATIONS.
  
-Syntax :
-<data_type> <arr_name> [arr_size]={value1, value2, value3,…};
+SYNTAX :
+<DATA_TYPE> <ARR_NAME> [ARR_SIZE]={VALUE1, VALUE2, VALUE3,…};
 
-int array[5]; 
+INT ARRAY[5]; 
 
-int nums[5] = {0, 1, 2, 3, 4}; 
+INT NUMS[5] = {0, 1, 2, 3, 4}; 
 
-Compile-Time Initialization
-Run-Time Initialization
+COMPILE-TIME INITIALISATION
+RUN-TIME INITIALISATION
 
 ******************************************************
 
-Multidimensional Arrays in c    :
-An array with a single dimension is known as a one dimensional array. An array that has a dimension greater than one, is known as a multidimensional array.
+MULTIDIMENSIONAL ARRAYS IN C    :
+AN ARRAY WITH A SINGLE DIMENSION IS KNOWN AS A ONE DIMENSIONAL ARRAY. AN ARRAY THAT HAS A DIMENSION GREATER THAN ONE, IS KNOWN AS A MULTIDIMENSIONAL ARRAY.
 
-Syntax:
-int Arr[x][y] = {{ele 1, ele 2, ele 3} , {ele 1, ele 2, ele 3}};
+SYNTAX:
+INT ARR[X][Y] = {{ELE 1, ELE 2, ELE 3} , {ELE 1, ELE 2, ELE 3}};
 
-int A[10][20];
+INT A[10][20];
 
-int A[2][3] = {{3, 2, 1}, {8, 9, 10}};
+INT A[2][3] = {{3, 2, 1}, {8, 9, 10}};
 
-Accessing the Elements of a 2D Array
-Changing Elements in a 2D Array
-Looping Through a 2D Array
-
-
-
-————————————————————————
-CHAPTER 7 ——>    Strings in C
-————————————————————————
-
-What is a String?
-
-A string is a collection of characters (i.e., letters, numerals, symbols, and punctuation marks) in a linear sequence. In C, a string is a sequence of characters concluded with a NULL character '\0'.
-
-char variable[array_size];
-
-char str[5];
-char str2[50];
-
-There are four methods of initializing a string in C:
-Assigning a string literal with size.
-Assigning a string literal without size.
-Assigning character by character with size.
-Assigning character by character without size.
-
-char str[8] = “ Trueline.”;
-char str[] = “Trueline.”;
-char str[8] = {'T', 'r', 'u', 'e', 'l', 'i', 'n','e','\0'};
-char str[] = {'T', 'r', 'u', 'e', 'l', 'i', 'n','e','\0'};
-
-
-Strings Input and Output functions in C
-
-char sentence[20];
-
-How to Take Input of a String in C Without Spaces?
-scanf("%s", sentence);
-
-Methods to Accept String With Space in C
-gets(sentence);
-fgets(sentence, 20, stdin);
+ACCESSING THE ELEMENTS OF A 2D ARRAY
+CHANGING ELEMENTS IN A 2D ARRAY
+LOOPING THROUGH A 2D ARRAY
 
 
 
-String Functions:
+————————————————————————-----
+CHAPTER 7 ——>    STRINGS IN C
+————————————————————————-----
 
-char company[] = “Trueline”;
+WHAT IS A STRING?
 
-strlen()			It returns the string's length.
-strcmp()			It compares two strings and returns 0 if the strings are the same.
-strcat()			It concatenates two strings and returns the concatenated string.
-strcpy()			It copies one string into another.
+A STRING IS A COLLECTION OF CHARACTERS (I.E., LETTERS, NUMERALS, SYMBOLS, AND PUNCTUATION MARKS) IN A LINEAR SEQUENCE. IN C, A STRING IS A SEQUENCE OF CHARACTERS CONCLUDED WITH A NULL CHARACTER '\0'.
 
+CHAR VARIABLE[ARRAY_SIZE];
 
-——————————————————————————
-CHAPTER 8 ——>    Functions in C
-——————————————————————————
+CHAR STR[5];
+CHAR STR2[50];
 
-Functions are blocks of code defined in a program to perform a particular task. Functions just need to be defined once in the program and then can be used multiple times. The best thing about functions is that they can be reused again and again throughout the program, whenever required.
+THERE ARE FOUR METHODS OF INITIALIZING A STRING IN C:
+ASSIGNING A STRING LITERAL WITH SIZE.
+ASSIGNING A STRING LITERAL WITHOUT SIZE.
+ASSIGNING CHARACTER BY CHARACTER WITH SIZE.
+ASSIGNING CHARACTER BY CHARACTER WITHOUT SIZE.
 
-Function Declarations
-
-Return Type:
-Function Name: 
-Parameters:
-Function body:
-
-
-Types of Functions in C
-Now that we have discussed the syntax of functions and why they're important, let’s take a look at the types of functions.
-Depending on where the function has been defined, functions are of two types:
-
-Standard Library Functions
-User Defined functions
-
-Function Arguments and Return values
-There are four different aspects of function calls, based on whether a function accepts arguments and/or returns a value. 
-
-function without arguments and without return value
-function without arguments and with return value
-function with arguments and without return value
-function with arguments and with return value
-
-Difference Between Arguments and Parameters in C
-
-Arguments and parameters are often used in different programming languages. But there exists a difference between them. Arguments are some actual value(s) supplied during the function call. Parameters are like the placeholders to which the argument's values are passed, or you can say they are used to receive the arguments passed during a function call. The term argument is used excessively during the function call, and it acts as a medium to pass the value from one function to other.
+CHAR STR[8] = “ TRUELINE.”;
+CHAR STR[] = “TRUELINE.”;
+CHAR STR[8] = {'T', 'R', 'U', 'E', 'L', 'I', 'N','E','\0'};
+CHAR STR[] = {'T', 'R', 'U', 'E', 'L', 'I', 'N','E','\0'};
 
 
-Call by Value and Call by Reference in C
+STRINGS INPUT AND OUTPUT FUNCTIONS IN C
 
-Call by Value in C
-Calling a function by value will cause the program to copy the contents of an object passed into a function. 
+CHAR SENTENCE[20];
 
-Call by Reference in C
-Calling a function by reference will give function parameter the address of original parameter due to which they will point to same memory location and any changes made in the function parameter will also reflect in original parameters. 
+HOW TO TAKE INPUT OF A STRING IN C WITHOUT SPACES?
+SCANF("%S", SENTENCE);
+
+METHODS TO ACCEPT STRING WITH SPACE IN C
+GETS(SENTENCE);
+FGETS(SENTENCE, 20, STDIN);
 
 
-Recursion in C
 
-Recursion is a programming concept where a function calls itself to solve a problem by breaking it down into smaller, simpler versions of the same problem.
+STRING FUNCTIONS:
 
-Base case: Recursion involves a base case that stops the recursive calls to prevent infinite loops, ensuring program termination.
-Recursive call The recursive call is the code executed repeatedly inside the recursive function while making recursive calls.
+CHAR COMPANY[] = “TRUE-LINE”;
 
-C Program to show infinite recursive function. 
-C program to calculate factorial of a number using recursion
+STRLEN()			IT RETURNS THE STRING'S LENGTH.
+STRCMP()			IT COMPARES TWO STRINGS AND RETURNS 0 IF THE STRINGS ARE THE SAME.
+STRCAT()			IT CONCATENATES TWO STRINGS AND RETURNS THE CONCATENATED STRING.
+STRCPY()			IT COPIES ONE STRING INTO ANOTHER.
 
-Types of Recursion in C
-There are two types of recursion in the C language.
 
-Direct Recursion
+——————————————————————————-----
+CHAPTER 8 ——>    FUNCTIONS IN C
+——————————————————————————-----
+
+FUNCTIONS ARE BLOCKS OF CODE DEFINED IN A PROGRAM TO PERFORM A PARTICULAR TASK. FUNCTIONS JUST NEED TO BE DEFINED ONCE IN THE PROGRAM AND THEN CAN BE USED MULTIPLE TIMES. THE BEST THING ABOUT FUNCTIONS IS THAT THEY CAN BE REUSED AGAIN AND AGAIN THROUGHOUT THE PROGRAM, WHENEVER REQUIRED.
+
+FUNCTION DECLARATIONS
+
+RETURN TYPE:
+FUNCTION NAME: 
+PARAMETERS:
+FUNCTION BODY:
+
+
+TYPES OF FUNCTIONS IN C
+NOW THAT WE HAVE DISCUSSED THE SYNTAX OF FUNCTIONS AND WHY THEY'RE IMPORTANT, LET’S TAKE A LOOK AT THE TYPES OF FUNCTIONS.
+DEPENDING ON WHERE THE FUNCTION HAS BEEN DEFINED, FUNCTIONS ARE OF TWO TYPES:
+
+STANDARD LIBRARY FUNCTIONS
+USER DEFINED FUNCTIONS
+
+FUNCTION ARGUMENTS AND RETURN VALUES
+THERE ARE FOUR DIFFERENT ASPECTS OF FUNCTION CALLS, BASED ON WHETHER A FUNCTION ACCEPTS ARGUMENTS AND/OR RETURNS A VALUE. 
+
+FUNCTION WITHOUT ARGUMENTS AND WITHOUT RETURN VALUE
+FUNCTION WITHOUT ARGUMENTS AND WITH RETURN VALUE
+FUNCTION WITH ARGUMENTS AND WITHOUT RETURN VALUE
+FUNCTION WITH ARGUMENTS AND WITH RETURN VALUE
+
+DIFFERENCE BETWEEN ARGUMENTS AND PARAMETERS IN C
+
+ARGUMENTS AND PARAMETERS ARE OFTEN USED IN DIFFERENT PROGRAMMING LANGUAGES. BUT THERE EXISTS A DIFFERENCE BETWEEN THEM. ARGUMENTS ARE SOME ACTUAL VALUE(S) SUPPLIED DURING THE FUNCTION CALL. PARAMETERS ARE LIKE THE PLACEHOLDERS TO WHICH THE ARGUMENT'S VALUES ARE PASSED, OR YOU CAN SAY THEY ARE USED TO RECEIVE THE ARGUMENTS PASSED DURING A FUNCTION CALL. THE TERM ARGUMENT IS USED EXCESSIVELY DURING THE FUNCTION CALL, AND IT ACTS AS A MEDIUM TO PASS THE VALUE FROM ONE FUNCTION TO OTHER.
+
+
+CALL BY VALUE AND CALL BY REFERENCE IN C
+
+CALL BY VALUE IN C
+CALLING A FUNCTION BY VALUE WILL CAUSE THE PROGRAM TO COPY THE CONTENTS OF AN OBJECT PASSED INTO A FUNCTION. 
+
+CALL BY REFERENCE IN C
+CALLING A FUNCTION BY REFERENCE WILL GIVE FUNCTION PARAMETER THE ADDRESS OF ORIGINAL PARAMETER DUE TO WHICH THEY WILL POINT TO SAME MEMORY LOCATION AND ANY CHANGES MADE IN THE FUNCTION PARAMETER WILL ALSO REFLECT IN ORIGINAL PARAMETERS. 
+
+
+RECURSION IN C
+
+RECURSION IS A PROGRAMMING CONCEPT WHERE A FUNCTION CALLS ITSELF TO SOLVE A PROBLEM BY BREAKING IT DOWN INTO SMALLER, SIMPLER VERSIONS OF THE SAME PROBLEM.
+
+BASE CASE: RECURSION INVOLVES A BASE CASE THAT STOPS THE RECURSIVE CALLS TO PREVENT INFINITE LOOPS, ENSURING PROGRAM TERMINATION.
+RECURSIVE CALL THE RECURSIVE CALL IS THE CODE EXECUTED REPEATEDLY INSIDE THE RECURSIVE FUNCTION WHILE MAKING RECURSIVE CALLS.
+
+C PROGRAM TO SHOW INFINITE RECURSIVE FUNCTION. 
+C PROGRAM TO CALCULATE FACTORIAL OF A NUMBER USING RECURSION
+
+TYPES OF RECURSION IN C
+THERE ARE TWO TYPES OF RECURSION IN THE C LANGUAGE.
+
+DIRECT RECURSION
         
-	function_01()	
+	FUNCTION_01()	
 	{
-        	//some code
+        	//SOME CODE
 
-      	 function_01();	
+      	 FUNCTION_01();	
 	
-        	//some code
+        	//SOME CODE
 	}
 
 
-Indirect Recursion
+INDIRECT RECURSION
 
-	function_01()
+	FUNCTION_01()
 	{
-        	//some code
-        	function_02();		
+        	//SOME CODE
+        	FUNCTION_02();		
 	}	
 
-	function_02()
+	FUNCTION_02()
 	{
-      	 //some code
-    	 function_01();
+      	 //SOME CODE
+    	 FUNCTION_01();
 	}
 
 
 
-———————————————————————
-CHAPTER 9 ——>    Pointers in C
-———————————————————————
+———————————————————————--------
+CHAPTER 9 ——>    POINTERS IN C
+———————————————————————--------
 
-Pointer is one kind of variable which is stored the address of the another variable.
+POINTER IS ONE KIND OF VARIABLE WHICH IS STORED THE ADDRESS OF THE ANOTHER VARIABLE.
 
-A Pointer is a variable that holds the memory address of another variable. When we declare a variable of a specific data type we assign some of the memory for the variable where it can store it's data. For using a pointer in C , we need to use a unary operator '*' before the name of the pointer variable to let the compiler know that this is a pointer variable.
+A POINTER IS A VARIABLE THAT HOLDS THE MEMORY ADDRESS OF ANOTHER VARIABLE. WHEN WE DECLARE A VARIABLE OF A SPECIFIC DATA TYPE WE ASSIGN SOME OF THE MEMORY FOR THE VARIABLE WHERE IT CAN STORE IT'S DATA. FOR USING A POINTER IN C , WE NEED TO USE A UNARY OPERATOR '*' BEFORE THE NAME OF THE POINTER VARIABLE TO LET THE COMPILER KNOW THAT THIS IS A POINTER VARIABLE.
 
-int *b;
+INT *B;
 
-Now to assign address of another variable we use another unary operator that is the '&' operator to assign the address of a variable to pointer variable.
+NOW TO ASSIGN ADDRESS OF ANOTHER VARIABLE WE USE ANOTHER UNARY OPERATOR THAT IS THE '&' OPERATOR TO ASSIGN THE ADDRESS OF A VARIABLE TO POINTER VARIABLE.
 
-int a = 10;
-int *b = &a;
+INT A = 10;
+INT *B = &A;
 
-If we try to print the value of p , we get a hexadecimal number on the output screen which is nothing but the address of the variable b.
+IF WE TRY TO PRINT THE VALUE OF P , WE GET A HEXADECIMAL NUMBER ON THE OUTPUT SCREEN WHICH IS NOTHING BUT THE ADDRESS OF THE VARIABLE B.
 
-C – Pointer to Pointer (Double Pointer)
+C – POINTER TO POINTER (DOUBLE POINTER)
 
-a double pointer in C holds the memory address of another pointer.
-int var = 10;        
-int *ptr = &var;
-int **double_ptr = &ptr;
-
-
-
-——————————————————————————
-CHAPTER 10 ——>    User Defined Data Types in C
-——————————————————————————
-
-Structures in C
-
-Structures (also called structs) are a way to group several related variables into one place. Each variable in the structure is known as a member of the structure.To create a structure in C, the struct keyword is used, followed by the tag name of the structure.
-
-C Structure Declaration
-
-Method 1
-
-struct Student {
-        char name[50];
-        int class;
-        int roll_no;
-} student1;
+A DOUBLE POINTER IN C HOLDS THE MEMORY ADDRESS OF ANOTHER POINTER.
+INT VAR = 10;        
+INT *PTR = &VAR;
+INT **DOUBLE_PTR = &PTR;
 
 
-Method 2
 
-struct Student {
-        char name[50];
-        int class;
-        int roll_no;
+——————————————————————————-----------------------------
+CHAPTER 10 ——>    USER DEFINED DATA TYPES IN C
+——————————————————————————-----------------------------
+
+STRUCTURES IN C
+
+STRUCTURES (ALSO CALLED STRUCTS) ARE A WAY TO GROUP SEVERAL RELATED VARIABLES INTO ONE PLACE. EACH VARIABLE IN THE STRUCTURE IS KNOWN AS A MEMBER OF THE STRUCTURE.TO CREATE A STRUCTURE IN C, THE STRUCT KEYWORD IS USED, FOLLOWED BY THE TAG NAME OF THE STRUCTURE.
+
+C STRUCTURE DECLARATION
+
+METHOD 1
+
+STRUCT STUDENT {
+        CHAR NAME[50];
+        INT CLASS;
+        INT ROLL_NO;
+} STUDENT1;
+
+
+METHOD 2
+
+STRUCT STUDENT {
+        CHAR NAME[50];
+        INT CLASS;
+        INT ROLL_NO;
 } ;
 
-Simple structure example
-Looping & array with structure 
+SIMPLE STRUCTURE EXAMPLE
+LOOPING & ARRAY WITH STRUCTURE 
 
 
 **********************************
 
 
- Unions in c 
+ UNIONS IN C 
 
-A union is a special data type available in C that allows to store different data types in the same memory location.
+A UNION IS A SPECIAL DATA TYPE AVAILABLE IN C THAT ALLOWS TO STORE DIFFERENT DATA TYPES IN THE SAME MEMORY LOCATION.
 
-C Union Declaration
+C UNION DECLARATION
 
-Defining Union Variable with Declaration
-union student {
-        char name[50];
-        int roll_no;
-} stud1, stud2;
+DEFINING UNION VARIABLE WITH DECLARATION
+UNION STUDENT {
+        CHAR NAME[50];
+        INT ROLL_NO;
+} STUD1, STUD2;
 
 
-Defining Union Variable after Declaration
-union student {
-        char name[50];
-        int roll_no;
+DEFINING UNION VARIABLE AFTER DECLARATION
+UNION STUDENT {
+        CHAR NAME[50];
+        INT ROLL_NO;
 };
 
-union student stud1, stud2;
+UNION STUDENT STUD1, STUD2;
 
 
 **********************************
 
 
-C Enumeration (enum)
+C ENUMERATION (ENUM)
 
-Enumerator(enum) is one of the special user-defined datatype in C programming language which is used to create and store the integer constants.
+ENUMERATOR(ENUM) IS ONE OF THE SPECIAL USER-DEFINED DATATYPE IN C PROGRAMMING LANGUAGE WHICH IS USED TO CREATE AND STORE THE INTEGER CONSTANTS.
 
-enum textEditor {
+ENUM TEXTEDITOR {
         BOLD,
         ITALIC,
         UNDERLINE
 };
 
-Examples of enum declaration
+EXAMPLES OF ENUM DECLARATION
 
 
-Method 1
+METHOD 1
 
-enum textEditor {
+ENUM TEXTEDITOR {
         BOLD,
         ITALIC,
         UNDERLINE
-} feature;
+} FEATURE;
 
 
-Method 2
+METHOD 2
 
-enum textEditor {
+ENUM TEXTEDITOR {
         BOLD,
         ITALIC,
         UNDERLINE
 };
 
-int main() {
-        enum textEditor feature;
-        return 0;
+INT MAIN() {
+        ENUM TEXTEDITOR FEATURE;
+        RETURN 0;
 }
 
-First value is by default 0
-The first enum name in the following declaration is by default assigned to value 0 if it is not initialized and next enum names are assigned by increment of 1.
+FIRST VALUE IS BY DEFAULT 0
+THE FIRST ENUM NAME IN THE FOLLOWING DECLARATION IS BY DEFAULT ASSIGNED TO VALUE 0 IF IT IS NOT INITIALIZED AND NEXT ENUM NAMES ARE ASSIGNED BY INCREMENT OF 1.
 
 
 
-————————————————————————
-CHAPTER 11 ——>    File Management in C
-————————————————————————
+————————————————————————---------------------
+CHAPTER 11 ——>    FILE MANAGEMENT IN C
+————————————————————————----------------------
 
-File handling in C stores data of our program in our local store, which can be used at any time because as the execution of a program completes, our data is lost. Therefore, we need to save our data in any file form - text or binary files.
-We can perform tasks like opening, reading the existing file, writing or adding new content, creating a new file, closing the file, or even saving the file to a certain location using C.
+FILE HANDLING IN C STORES DATA OF OUR PROGRAM IN OUR LOCAL STORE, WHICH CAN BE USED AT ANY TIME BECAUSE AS THE EXECUTION OF A PROGRAM COMPLETES, OUR DATA IS LOST. THEREFORE, WE NEED TO SAVE OUR DATA IN ANY FILE FORM - TEXT OR BINARY FILES.
+WE CAN PERFORM TASKS LIKE OPENING, READING THE EXISTING FILE, WRITING OR ADDING NEW CONTENT, CREATING A NEW FILE, CLOSING THE FILE, OR EVEN SAVING THE FILE TO A CERTAIN LOCATION USING C.
 
-In C, you can create, open, read, and write to files by declaring a pointer of type FILE, and use the fopen() function:
+IN C, YOU CAN CREATE, OPEN, READ, AND WRITE TO FILES BY DECLARING A POINTER OF TYPE FILE, AND USE THE FOPEN() FUNCTION:
 
-FILE *fptr
-fptr = fopen(filename, mode);
+FILE *FPTR
+FPTR = FOPEN(FILENAME, MODE);
 
-FILE is basically a data type, and we need to create a pointer variable to work with it (fptr).
+FILE IS BASICALLY A DATA TYPE, AND WE NEED TO CREATE A POINTER VARIABLE TO WORK WITH IT (FPTR).
 
-FILE NAME			The name of the actual file you want to open (or create), like filename.txt
+FILE NAME			THE NAME OF THE ACTUAL FILE YOU WANT TO OPEN (OR CREATE), LIKE FILENAME.TXT
 
-MODE 				A single character, which represents what you want to do with the file (read, write or append):
-						w - Writes to a file
-						a - Appends new data to a file
-						r - Reads from a file
+MODE 				A SINGLE CHARACTER, WHICH REPRESENTS WHAT YOU WANT TO DO WITH THE FILE (READ, WRITE OR APPEND):
+						W - WRITES TO A FILE
+						A - APPENDS NEW DATA TO A FILE
+						R - READS FROM A FILE
 
 
-—————— Create a File ————————
+—————— CREATE A FILE ————————
 
 
-FILE *fptr;
+FILE *FPTR;
 
-fptr = fopen("filename.txt", "w");
+FPTR = FOPEN("FILENAME.TXT", "W");
 
-fclose(fptr);
+FCLOSE(FPTR);
 
-———————— Write To a File ————————
+———————— WRITE TO A FILE ————————
 
-FILE *fptr;
+FILE *FPTR;
 
-fptr = fopen("filename.txt", "w");
+FPTR = FOPEN("FILENAME.TXT", "W");
 
-fprintf(fptr, "Some text");
+FPRINTF(FPTR, "SOME TEXT");
 
-fclose(fptr);
+FCLOSE(FPTR);
 
-———————— Append Content To a File ————————
+———————— APPEND CONTENT TO A FILE ————————
 
-FILE *fptr;
+FILE *FPTR;
 
-fptr = fopen("filename.txt", "a");
+FPTR = FOPEN("FILENAME.TXT", "A");
 
-fprintf(fptr, "\nHi everybody!");
+FPRINTF(FPTR, "\NHI EVERYBODY!");
 
-fclose(fptr);
+FCLOSE(FPTR);
 
-———————— Read a File ———————— 
+———————— READ A FILE ———————— 
 
-FILE *fptr;
+FILE *FPTR;
 
-fptr = fopen("filename.txt", "r");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-C        TUTORIAL
-
-————————————————————————————
-CHAPTER 1 ——>    Introduction to C
-————————————————————————————
-
-History of c language.
-
-
-ANSI    (American    national standard institute )
-
-ALGOL (Algorithmic Language)
-BCPL (Basic Combined Programming Language)
-
-
-Importance of C Programming Language
-
-Install C
-
-GCC stands for GNU Compiler Collections. 
-MinGW stands for Minimal GNU for Windows
-        
-	GCC
-	- various kind of compiler collections for programming languages.
-
-	Mingw
-	- particular c and c++ compiling and assembling.
-
-
-Compilation Process in C
-
-Before diving into the traditional definition of compilation, let us consider an example where there is a person A who speaks Hindi language and person A wants to talk to person B who only knows English language, so now either of them requires a translator to translate their words to communicate with each other. This process is known as translation, or in terms of programming, it is known as compilation process.
-
-
-IDE (Integrated Development Environment)
-
-Compilation process in C involves four steps:
-
-Preprocessing.        ( comment removal ).          File convert .c      To    .I      extension 
-Compiling.                ( source code to assembly ).        File convert      .I      To      .s      extension
-Assembling.            ( assembly to machine ).          File    convert      .s      To      .o    
-Linking            ( machine code (010110101)).      File convert      .o      To        .out 
-
-
-Difference Between Compiler and Interpreter
-
-
-
-—————————————————————————————————————
-CHAPTER 2 ——>      Building Block of C Language
-—————————————————————————————————————
-
-
-Character Set in C
-
-Character Set includes a set of valid characters we can use in our program in different parts.
-
-Alphabetic Characters (A-Z, a-z) :
-Digits (0-9) : 
-Special Characters :      * & # 
-Whitespace Characters :          
-Control Characters :      
- These include non-printable characters like the escape character ('\e') and others used for control and formatting, such as '\b' (backspace), '\t' (tab), and '\n' (newline).
-
-Escape Sequences:  \n. \t. 
-
-
-
-Tokens in C
-
-Tokens in C language are the minor elements or the building blocks used to construct or develop a C program.
- These tokens in C are meaningful to the compiler.
-
-Types of Tokens in C language
-Tokens in C language can be classified as:
-
-Keywords
-Identifiers
-Constant
-Special Characters
-String
-Operator
-
-
-Identifiers in C
-
-Identifiers in C language represent the names of various entities such as arrays, functions, variables, user-defined data types, labels, etc.
-
-Valid Identifiers in C
-
-length 
-total_sum 
-_size
-num1 
-num_2 
-
-Invalid Identifiers in C
-
-5size (it begins with a digit)
-\@hello (starts with a special character other than '_')
-int ( it is a keyword)
-m n (contains a blank space)
-m+n (contains a special character)
-
-Constants in C
-
-Variables having fixed values that don’t change and cannot be changed throughout the execution of the program once initialized are called Constants.
-
-In the C programming language, A variable can be used as a constant by the following methods:
-
-Using const keyword.
-Using the #define preprocessor.
-
-
-Data Types and Their Ranges in C
-
-What are data types in C
-
-Data type is an attribute of data which tells the c compiler, which type of data a variable is holding.
-It can be of type integer, float( decimal), character , boolean( true/false ) etc.
-Formally we use data types to specify the type of data our variables are holding.
-
-a. Primary Data types or Basic Data Types 
-b. Secondary Data Types
-c. User-define Data Types
-
-
-
-SHORT AND LONG
-These are used to define the amount of memory space that the compiler will allocate. In case of short int, it is typically 2 bytes and in long int, it is 4 bytes.
-
-SIGNED AND UNSIGNED
-This also deals with memory allocation only but in a different way. In case of signed int, it takes into account both negative and positive numbers. But in unsigned int, we can only represent positive numbers.
-
-
-
-A. Primary Data Types 
-
-Integer
-Float
-Char
-Double 
-
-
-B. Derived Datatypes 
-
- 1. ARRAY
- 2. STRING
- 3. POINTER
- 4. FUNCTIONS
-
-
-C.    User-define Datatypes
-
- 1. STRUCTURE
- 2. UNION
-
-data-types-sizes-in-c.png ¬
-
-Declaration of Variables in C
-
-Let's say we need to calculate the area of a rectangle. To make this arithmetic calculation, we need to store the length and width of the rectangle. To store the length and width of the rectangle, we need to allocate some space in a memory location for the data, and the name given to that memory location is called Variable.
-
-Variable declaration 
-data_type variable_name;
-
-Variable initialization
- variable_name = value;
-
-Declaration of variable with initializing some value to it
-data_type variable_name = val;
-
-
-Comments in C
-
-Comments are program text used to explain the program logic. They are ignored by the compiler. Comments help to make our code more readable and maintainable. The compiler and interpreter ignore comments, so they do not affect the program's behavior or performance.
-
-Types of C Comments
-
-Single-Line Comments
-Multi-Line comments or Paired Comments
-
-
-
-———————————————————————————————————
-CHAPTER 3 ——>      Basic Input Output in C
-———————————————————————————————————
-
-Input and Output Functions in C
-
-Input refers to feeding data into the program, and Output refers to getting data out of the program. Input and Output in C are done using the Standard Input/Output library, which we could include in the program using stdio.h header file consists of Input and Output functions in C like scanf() for input and printf() for output. 
-
-printf(“I see……I remembered ”);
-printf(“%A”, variableName); 
-scanf(“%A”, &variable); 
-
-
-Format specifiers in C
-
-%c			            For character type.
-%d			For signed integer type.
-%f				For float type.
-%lf			Double
-%p		 	Pointer
-%s			          String
-%lu			Unsigned int
-
-First C Program
-
-Different parts of C programs are :
-
-Header File
-Preprocessor directives 
-Main() function
-Variables
-Statements and expression
-Comments
-
-Command Line Arguments in C
-
-Through Command Line Interface (CLI) , a user can interact with the operating system or application by typing the commands. After that, the system responds to the command, and the user can type the next command for performing the next operation.
-
-Macros in C
-
-Suppose we are working on an application in C language and there is one value or an object or segment of code which we require so many times in our code then with the help of macros we can define it once and use it many times.
-
-The syntax of the macro is as shown in below . Here, we will have the three components:
-
-#define    PI    3.14
-
-#define - Preprocessor Directive
-PI - Macro Name
-3.14 - Macro Value
-
-User-define Macros in C Language
-
-
-#define MAX 100
-#define MIN 1
-#define GRAVITY 9.8
-#define NAME “Trueline”
-#define TRUE 1
-
-Pre-defined Macros in C Language
-
-__LINE__			            It contains the current line number on which this macro is used.            %d
-__FILE__				It contains the name of the file where the current program is present.          %s
-__DATE__			It contains the current date in MM DD YYYY format.          %s
-__TIME__			It contains the current time in HH:MM format.          %s
-
-#define and #include in C
-
-All the statements starting with # (hash) symbol are known as preprocessor directives/commands therefore, #define and #include are also known as preprocessor directives. Preprocessor directives are executed before any other command in our program. In a C Program, we generally write all the preprocessor directives outside the main() function at the top of our C program. The #define directive is used to define constants or an expression in our C Program, while #include directive is used to include the content of header files in our C program.
-
-#include is also known as a file inclusion directive.
-#define is also known as a macros directive.
-
-#include <stdio.h>
-#define PI 3.14
-
-
-———————————————————————————————————————-
-CHAPTER 4 ——>    Operators and Expressions in C
-———————————————————————————————————————
-
-Operators in C
-
-C Supports a rich set of built-in Operators. Operators are symbols that are used to perform some operation or a set of operations on a variable or a set of variables. operators in C are that symbols which work on operands. Operator in C language is used to perform specific mathematical or logical computations on the operands and it reduces a single value.
-
-Operators in C language, are classified into several categories.
-
-Arithmetic operator
-Relational operator
-Assignment operator
-Logical operator
-Bitwise operator
-Ternary operator
-Special operator
-
-
-Precedence(or priority) and Associativity of Operators in C
-
-Precedence determines which operator is performed first in an expression if there are more than one operator of different precedence. Associativity determines in which direction we should start computing the operators having the same precedence.
-
-operator-precedence-in-c.png ¬
-
-Type Conversion
-Type conversion in C is the process of converting one data type to another
-
-1. Implicit Type Conversion
-2. Explicit Type Conversion
-
-
-————————————————————————————
-CHAPTER 5 ——>.      Flow Control in C
-————————————————————————————
-
-if Statement
-
-if...else Statement
-
-Nested If else Statement in C
-
-Switch Statement in C
-
-Do While Loop in C
-
-While Loop in C
-
-For loop in C
-
-
-Jump Statements in C
-
-Jump Statements interrupt the normal flow of the program while execution and jump when it gets satisfied given specific conditions. The main uses of jump statements are to exit the loops like for, while, do-while also switch case and executes the given or next block of the code, skip the iterations of the loop, change the control flow to specific location, etc.
-
-Types of Jump Statement in C
-There are 4 types of Jump statements in C language.
-Break Statement
-Continue Statement
-Goto Statement
-Return Statement.
-
-
-
-———————————————————————
-CHAPTER 6 ——>    Arrays in C
-———————————————————————
-
-
-An array is a collection of one or more values of the same data type stored in contiguous memory locations. The data type can be user-defined or even any other primitive data-type. Elements of an array can be accessed with the same array name by specifying the index number as the location in memory.
-
-Types of Arrays
-Arrays in C are classified into three types:
-One-dimensional arrays OR single dimensional    array
-Two-dimensional arrays OR Multi dimensional    array
-
-One Dimensional Array in C :
-We can visualize a one-dimensional array in C as a single row to store the elements. All the elements are stored at contiguous memory locations.
- 
-Syntax :
-<data_type> <arr_name> [arr_size]={value1, value2, value3,…};
-
-int array[5]; 
-
-int nums[5] = {0, 1, 2, 3, 4}; 
-
-Compile-Time Initialization
-Run-Time Initialization
-
-******************************************************
-
-Multidimensional Arrays in c    :
-An array with a single dimension is known as a one dimensional array. An array that has a dimension greater than one, is known as a multidimensional array.
-
-Syntax:
-int Arr[x][y] = {{ele 1, ele 2, ele 3} , {ele 1, ele 2, ele 3}};
-
-int A[10][20];
-
-int A[2][3] = {{3, 2, 1}, {8, 9, 10}};
-
-Accessing the Elements of a 2D Array
-Changing Elements in a 2D Array
-Looping Through a 2D Array
-
-
-
-——————————————————————
-CHAPTER 7 ——>    Strings in C
-——————————————————————
-
-What is a String?
-
-A string is a collection of characters (i.e., letters, numerals, symbols, and punctuation marks) in a linear sequence. In C, a string is a sequence of characters concluded with a NULL character '\0'.
-
-char variable[array_size];
-
-char str[5];
-char str2[50];
-
-There are four methods of initializing a string in C:
-Assigning a string literal with size.
-Assigning a string literal without size.
-Assigning character by character with size.
-Assigning character by character without size.
-
-char str[8] = Trueline.”;
-char str[] = “Trueline.”;
-char str[8] = {'T', 'r', 'u', 'e', 'l', 'i', 'n','e','\0'};
-char str[] = {'T', 'r', 'u', 'e', 'l', 'i', 'n','e','\0'};
-
-
-Strings Input and Output functions in C
-
-char sentence[20];
-
-How to Take Input of a String in C Without Spaces?
-scanf("%s", sentence);
-
-Methods to Accept String With Space in C
-gets(sentence);
-fgets(sentence, 20, stdin);
-
-{%[^\n]%*c} inside scanf
-We can use the expression {%[^\n]%*c} inside scanf() to take the complete line including spaces as a string input in C.
-scanf("%[^\n]%*c",sentence);
-
-
-String Functions:
-
-char company[] = “Trueline”;
-
-strlen()			It returns the string's length.
-strcmp()			It compares two strings and returns 0 if the strings are the same.
-strcat()			It concatenates two strings and returns the concatenated string.
-strcpy()			It copies one string into another.
-
-
-——————————————————————————
-CHAPTER 8 ——>    Functions in C
-——————————————————————————
-
-Functions are blocks of code defined in a program to perform a particular task. Functions just need to be defined once in the program and then can be used multiple times. The best thing about functions is that they can be reused again and again throughout the program, whenever required.
-
-Function Declarations
-
-Return Type:
-Function Name: 
-Parameters:
-Function body:
-
-
-Types of Functions in C
-Now that we have discussed the syntax of functions and why they're important, let’s take a look at the types of functions.
-Depending on where the function has been defined, functions are of two types:
-Standard Library Functions
-User Defined functions
-
-Function Arguments and Return values
-There are four different aspects of function calls, based on whether a function accepts arguments and/or returns a value. 
-
-function without arguments and without return value
-function without arguments and with return value
-function with arguments and without return value
-function with arguments and with return value
-
-Difference Between Arguments and Parameters in C
-
-Arguments and parameters are often used in different programming languages. But there exists a difference between them. Arguments are some actual value(s) supplied during the function call. Parameters are like the placeholders to which the argument's values are passed, or you can say they are used to receive the arguments passed during a function call. The term argument is used excessively during the function call, and it acts as a medium to pass the value from one function to other.
-
-
-Call by Value and Call by Reference in C
-
-Call by Value in C
-Calling a function by value will cause the program to copy the contents of an object passed into a function. 
-
-Call by Reference in C
-Calling a function by reference will give function parameter the address of original parameter due to which they will point to same memory location and any changes made in the function parameter will also reflect in original parameters. 
-
-
-Recursion in C
-
-Recursion is a programming concept where a function calls itself to solve a problem by breaking it down into smaller, simpler versions of the same problem.
-
-Base case: Recursion involves a base case that stops the recursive calls to prevent infinite loops, ensuring program termination.
-Recursive call The recursive call is the code executed repeatedly inside the recursive function while making recursive calls.
-
-C Program to show infinite recursive function. 
-C program to calculate factorial of a number using recursion
-
-Types of Recursion in C
-There are two types of recursion in the C language.
-Direct Recursion
-        
-	function_01()	
-	{
-        	//some code
-
-      	 function_01();	
-	
-        	//some code
-	}
-
-
-Indirect Recursion
-
-	function_01()
-	{
-        	//some code
-        	function_02();		
-	}	
-
-	function_02()
-	{
-      	 //some code
-    	 function_01();
-	}
-
-
-
-———————————————————————
-CHAPTER 9 ——>    Pointers in C
-———————————————————————
-
-Pointer is one kind of variable which is stored the address of the another variable.
-
-A Pointer is a variable that holds the memory address of another variable. When we declare a variable of a specific data type we assign some of the memory for the variable where it can store it's data. For using a pointer in C , we need to use a unary operator '*' before the name of the pointer variable to let the compiler know that this is a pointer variable.
-
-int *b;
-
-Now to assign address of another variable we use another unary operator that is the '&' operator to assign the address of a variable to pointer variable.
-
-int a = 10;
-int *b = &a;
-
-If we try to print the value of p , we get a hexadecimal number on the output screen which is nothing but the address of the variable b.
-
-C – Pointer to Pointer (Double Pointer)
-
-a double pointer in C holds the memory address of another pointer.
-int var = 10;        
-int *ptr = &var;
-int **double_ptr = &ptr;
-
-
-
-——————————————————————————
-CHAPTER 10 ——>    User Defined Data Types in C
-——————————————————————————
-
-Structures in C
-
-Structures (also called structs) are a way to group several related variables into one place. Each variable in the structure is known as a member of the structure.To create a structure in C, the struct keyword is used, followed by the tag name of the structure.
-
-C Structure Declaration
-
-Method 1
-
-struct Student {
-        char name[50];
-        int class;
-        int roll_no;
-} student1;
-
-
-Method 2
-
-struct Student {
-        char name[50];
-        int class;
-        int roll_no;
-} ;
-
-Simple structure example
-Looping & array with structure 
-
-
-**********************************
-
-
- Unions in c 
-
-A union is a special data type available in C that allows to store different data types in the same memory location.
-
-C Union Declaration
-
-Defining Union Variable with Declaration
-union student {
-        char name[50];
-        int roll_no;
-} stud1, stud2;
-
-
-Defining Union Variable after Declaration
-union student {
-        char name[50];
-        int roll_no;
-};
-
-union student stud1, stud2;
-
-
-**********************************
-
-
-C Enumeration (enum)
-
-Enumerator(enum) is one of the special user-defined datatype in C programming language which is used to create and store the integer constants.
-
-enum textEditor {
-        BOLD,
-        ITALIC,
-        UNDERLINE
-};
-
-Examples of enum declaration
-
-
-Method 1
-
-enum textEditor {
-        BOLD,
-        ITALIC,
-        UNDERLINE
-} feature;
-
-
-Method 2
-
-enum textEditor {
-        BOLD,
-        ITALIC,
-        UNDERLINE
-};
-
-int main() {
-        enum textEditor feature;
-        return 0;
-}
-
-First value is by default 0
-The first enum name in the following declaration is by default assigned to value 0 if it is not initialized and next enum names are assigned by increment of 1.
-
-
-
-————————————————————————
-CHAPTER 11 ——>    File Management in C
-————————————————————————
-
-File handling in C stores data of our program in our local store, which can be used at any time because as the execution of a program completes, our data is lost. Therefore, we need to save our data in any file form - text or binary files.
-We can perform tasks like opening, reading the existing file, writing or adding new content, creating a new file, closing the file, or even saving the file to a certain location using C.
-
-In C, you can create, open, read, and write to files by declaring a pointer of type FILE, and use the fopen() function:
-
-FILE *fptr
-fptr = fopen(filename, mode);
-
-FILE is basically a data type, and we need to create a pointer variable to work with it (fptr).
-
-FILE NAME			The name of the actual file you want to open (or create), like filename.txt
-
-MODE 				A single character, which represents what you want to do with the file (read, write or append):
-						w - Writes to a file
-						a - Appends new data to a file
-						r - Reads from a file
-
-
-—————— Create a File ————————
-
-
-FILE *fptr;
-
-fptr = fopen("filename.txt", "w");
-
-fclose(fptr);
-
-———————— Write To a File ————————
-
-FILE *fptr;
-
-fptr = fopen("filename.txt", "w");
-
-fprintf(fptr, "Some text");
-
-fclose(fptr);
-
-———————— Append Content To a File ————————
-
-FILE *fptr;
-
-fptr = fopen("filename.txt", "a");
-
-fprintf(fptr, "\nHi everybody!");
-
-fclose(fptr);
-
-———————— Read a File ———————— 
-
-FILE *fptr;
-
-fptr = fopen("filename.txt", "r");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+FPTR = FOPEN("FILENAME.TXT", "R");
 
 
 
